@@ -1,0 +1,41 @@
+        a.button {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            background-color: #999;
+            color: #fff; 
+            margin: auto;
+            height: 40px;
+            width: 150px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Hover effect */
+        a.button:hover {
+            background-color: #555; 
+        }
+
+
+/* Tags */
+section {
+    margin-top: 5vh;
+  }
+  
+  section p {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    font-size: 28px;
+    margin: 0 2rem 0 2rem;
+    text-align: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+  }
+  

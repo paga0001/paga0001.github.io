@@ -1,5 +1,16 @@
 /* IDs */
 
+#profile {
+    
+}
+
+#profile p {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-indent: 0;
+  }
+
 #ProfilePic {
     display: block;
     margin-left: auto;
