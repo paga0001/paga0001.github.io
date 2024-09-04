@@ -5,16 +5,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <title>Profile</title>
+        <link rel="stylesheet" type="text/css" href="css/profilestyle.css">
+        <title>Welcome</title>
     </head>
     <body>
-      <nav>
-        <a href="index.html">Index</a>
-      </nav>
+        <header>
+            <!--Navigation-->
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <a href="index.html">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="profile.html" class="currentpage">Profile</a>
+                    </li>
+                    <li>
+                        <a href="dashboard.html">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+              </nav>
+            <h1>Profile</h1>
+        </header>
         <main>
-            <article>
-                <h1>Hello World!!</h1>
-            </article>
+            <article class="content">
+                <!-- Logo and Pagename -->
+                <section class="PageHeader">
+                  <h1 class="PageName">Profile</h1>
+                </section>
+                <!-- Main content -->
+                <!--Profile -->
+                <div id="profile">
+                  <img src="recources/profilepic.jpg" alt="Profile Pic" id="ProfilePic">
+                  <p>Name: Joni Paganus</p>
+                  <p>Nationality: Finnish</p>
+                  <p>Age: 23 years</p>
+                  <p>Languages spoken:</p>
+                </div>
+                <!--Content--
+                <div>
+                  <h2>Things I'll talk about:</h2>
+                  <ul id="InterestsLinks">
+                    <li><a href="#missing">misseeeing</a></li>
+                  </ul>
+                </div>
+                <div id="missing">
+                  <img src="resources/missing.png" alt="missing" id="missing">
+                  <h2>Missing</h2>
+                  <p>Text to be added</p>
+                </div> -->
+              </article>
         </main>
+        <footer>
+        </footer>
     </body>
 </html>

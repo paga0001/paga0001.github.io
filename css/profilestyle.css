@@ -1,0 +1,11 @@
+/* IDs */
+
+#ProfilePic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: auto;
+    clip-path: circle();
+    align-items: center;
+  }
