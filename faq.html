@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/faqstyles.css">
+        <script type="text/javascript" src="js/dropdown.js" defer="defer"></script>
+        <script type="text/javascript" src="js/collapsMenu.js" defer="defer"></script>
         <title>Welcome</title>
     </head>
     <body>
@@ -28,12 +31,53 @@
                         <a href="faq.html" class="currentpage">FAQ</a>
                     </li>
                 </ul>
-              </nav>
-            <h1>FAQ</h1>
+            </nav>
+            <div class="dropdown">
+                <button onclick="dropDown()" class="dropbtn">Info</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://learn.hz.nl/my/" target="_blank">Learn enviroment</a>
+                    <a
+                        href="https://teams.microsoft.com/_?culture=en-us&country=WW&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/teams-grid/General?ctx=teamsGrid"
+                        target="_blank">Teams</a>
+                    <a href="https://hz.osiris-student.nl/#/home" target="_blank">Study progress</a>
+                    <a href="https://github.com/JP076FIN" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/joni-paganus/" target="_blank">Linkedin</a>
+                </div>
+            </div>
         </header>
-        <main>
-        </main>
-        <footer>
-        </footer>
-    </body>
+        <h1>FAQ</h1>
+    </header>
+    <main>
+        <button class="accordion">How to Login to HZ.nl Portal?</button>
+        <div class="panel">
+            <p>You can login to the portal from <a href="https://portal.hz.nl/en/" target="_blank">HERE</a>.</p>
+        </div>
+
+        <button class="accordion">Why have you done this page?</button>
+        <div class="panel">
+            <p>I done this page because it was mandatory...</p>
+        </div>
+
+        <button class="accordion">Section 3</button>
+        <div class="panel">
+            <p>Lorem ipsum...</p>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright XOXOXOXO</p>
+        <table>
+            <tr>
+                <th>Phone number</th>
+                <th>Address</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>+358 50 358 3998</td>
+                <td>Poelendaelesingel 4 100<br>
+                    4335 JA Middelburg</td>
+                <td>paga0001@hz.nl</td>
+            </tr>
+        </table>
+    </footer>
+</body>
 </html>

@@ -1,0 +1,78 @@
+/* Tags */
+table {
+    font-size: 2rem;
+    width: 75%;
+    text-align: center;
+  }
+  
+  article table,
+  article td,
+  article th {
+    font-size: 2vw;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 1px 1px 10px 0px;
+  }
+  
+  article {
+    padding-top: 6vh;
+  }
+  
+  article div {
+    justify-content: center;
+    display: flex;
+  }
+  
+  /* Classes */
+  .TableHead {
+    background-color: rgb(188, 188, 188);
+  }
+  
+  .Even,
+  .Quartile {
+    background-color: rgb(209, 208, 208);
+  }
+  
+  .wrapper {
+    width: 600px;
+    margin: auto;
+    padding-top: 5vh;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 3px;
+    border-radius: 3px;
+    justify-content: left;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2);
+  }
+  
+  .progress-bar-fill {
+    display: block;
+    height: 22px;
+    background-color: #00d5ff;
+    border-radius: 3px;
+    transition: width 500ms ease-in-out;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+  }
+   
+  .status-NotTaken {
+    background-color: #7c7c7c;
+  }
+  
+  .status-Passed {
+    background-color: #17b82f;
+  }
+  
+  .status-Failed {
+    background-color: #ed1010;
+  }
+  
+  /* IDs */
+  #label {
+    text-align: center;
+  }

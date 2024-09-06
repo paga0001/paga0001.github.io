@@ -9,14 +9,15 @@ h1 {
 }
 p {
     color: #fff;
+    text-align: center;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #f1f1f1;
     position: fixed;
-    top: 2px;
+    text-align: center;
+    top: 0px;
     width: 100%;
     overflow: hidden;
     position: -webkit-sticky;
@@ -47,25 +48,38 @@ li a:hover:not(.active) {
 
 /* Dropdown */
 
-.dropdown {
-    width: 15%;
-    background-color: white;
-    font-size: 15px;
-    display: block;
-    position: fixed;
-    right: 0;
+.dropbtn {
+  position: fixed;
+  flex-direction: column;
+  background-color: #999;
+  color: #fff; 
+  margin: -20px;
+  height: 40px;
+  width: 150px;
+  text-decoration: none;
+  right: 50px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  }
+
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #111;
+  }
+
+  .dropdown {
     float: right;
-    margin: 0;
-    padding-top: 2px;
-    text-align: center;
-    position: -webkit-sticky;
-    cursor: pointer;
+    position: relative;
   }
   
   .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #f1f1f1;
+    min-width: auto;
+    margin: 20px;
+    overflow: auto;
+    right: 14px;
     box-shadow: 0px 8px 16px 0px #000;
     z-index: 1;
   }
@@ -77,9 +91,23 @@ li a:hover:not(.active) {
     display: block;
     font-size: 15px;
   }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-    background-color: #fff;
-    color: #000;
+
+  .dropdown a:hover {background-color: #ddd;}
+
+  .show {display: block;}
+
+
+  /* Footer */
+
+  footer {
+    bottom: 0;
+    position: relative;
+    margin-top: 20%;
+    clear: both;
+  }
+
+  footer table {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
   }

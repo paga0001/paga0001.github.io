@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <script type="text/javascript" src="js/dropdown.js" defer="defer"></script>
         <title>Welcome</title>
     </head>
     <body>
@@ -28,17 +29,44 @@
                         <a href="faq.html">FAQ</a>
                     </li>
                 </ul>
-              </nav>
-            <h1>Blog</h1>
-        </header>
-        <main>
-            <div>
-                <a href="posts/programming.html">Programming Experience</a>
-                <a href="posts/feedback.html">Feedback</a>
-                <a href="posts/study_choice.html">Study Choice</a>
+            </nav>
+            <div class="dropdown">
+                <button onclick="dropDown()" class="dropbtn">Info</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="https://learn.hz.nl/my/" target="_blank">Learn enviroment</a>
+                    <a
+                        href="https://teams.microsoft.com/_?culture=en-us&country=WW&lm=deeplink&lmsrc=homePageWeb&cmpid=WebSignIn#/school/teams-grid/General?ctx=teamsGrid"
+                        target="_blank">Teams</a>
+                    <a href="https://hz.osiris-student.nl/#/home" target="_blank">Study progress</a>
+                    <a href="https://github.com/JP076FIN" target="_blank">Github</a>
+                    <a href="https://www.linkedin.com/in/joni-paganus/" target="_blank">Linkedin</a>
+                </div>
             </div>
-        </main>
-        <footer>
-        </footer>
-    </body>
+        </header>
+        <h1>Blog</h1>
+    </header>
+    <main>
+        <div>
+            <p><a href="posts/programming.html">Programming Experience</a></p>
+            <p><p><a href="posts/feedback.html">Feedback</a></p>
+            <p><a href="posts/study_choice.html">Study Choice</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright XOXOXOXO</p>
+        <table>
+            <tr>
+                <th>Phone number</th>
+                <th>Address</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>+358 50 358 3998</td>
+                <td>Poelendaelesingel 4 100<br>
+                    4335 JA Middelburg</td>
+                <td>paga0001@hz.nl</td>
+            </tr>
+        </table>
+    </footer>
+</body>
 </html>
