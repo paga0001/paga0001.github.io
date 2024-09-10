@@ -1,5 +1,5 @@
 body {
-    background-color: #686868;
+    background-image: linear-gradient(to bottom right, #1c1c1c, #6092ff, #eee);
     font-size: 20px;
 }
 h1 {
@@ -11,6 +11,26 @@ p {
     color: #fff;
     text-align: center;
 }
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+main img {
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.hz {
+    height: 150px;
+    margin-top: 100px;
+
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -20,15 +40,18 @@ ul {
     top: 0;
     width: 100%;
     overflow: hidden;
-    position: -webkit-sticky;
+    color: #fff;
 }
 ul li {
     float: left;
     color: #fff;
+    position: relative;
+    margin: 10 5px;
+    list-style: none;
 }
 ul li a {
     display: block;
-    color: #000;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -36,7 +59,7 @@ ul li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
+    background-image: linear-gradient(to bottom right, #1c1c1c, #5c5c5c);
     color: #fff;
     transition: 0.3s ease;
 }
@@ -55,7 +78,7 @@ ol li {
 /* Classes */
 
 .currentpage {
-    background-color: #333;
+    background-image: linear-gradient(to bottom right, #222, #8b8b8b);
     color: #fff;
 }
 
@@ -64,13 +87,13 @@ ol li {
 .dropbtn {
     position: fixed;
     flex-direction: column;
-    background-color: #999;
+    background-image: linear-gradient(to bottom right, #1c1c1c, #999);
     color: #fff;
-    margin: -20px;
+    margin: 20px;
     height: 40px;
     width: 150px;
     text-decoration: none;
-    right: 50px;
+    right: 10px;
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s ease;
@@ -88,19 +111,20 @@ ol li {
 
 .dropdown-content {
     display: none;
+    color: #fff;
     position: fixed;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(to bottom right, #414141, #dadada);
     min-width: auto;
-    margin: 20px;
+    margin: 60px;
     overflow: auto;
-    right: 14px;
+    right: -25px;
     box-shadow: 0 8px 16px 0 #000;
     z-index: 1;
     transition: 3s ease;
 }
 
 .dropdown-content a {
-    color: #000;
+    color: #fff;
     padding: 12px 16px;
     text-decoration: none;
     display: block;

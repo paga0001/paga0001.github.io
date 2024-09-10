@@ -4,7 +4,7 @@ a.button {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #999;
+    background-image: linear-gradient(to bottom right, #3c3c3c, #c7c6c6);
     color: #fff;
     margin: auto;
     height: 40px;

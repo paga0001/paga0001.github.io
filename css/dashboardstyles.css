@@ -1,58 +1,22 @@
 /* Tags */
-table {
+div table {
     font-size: 24px;
     width: 75%;
     text-align: center;
-  }
-  
-  article table,
-  article td,
-  article th {
-    font-size: 24px;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 6px 6px 6px 6px;
-    box-shadow: 1px 1px 10px 0px;
-  }
-  
-  article {
-    padding-top: 6px;
-  }
-  
-  article div {
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 0;
+    background-image: linear-gradient(to bottom right, #737373, #eee);
     justify-content: center;
-    display: flex;
-  }
-  
-  /* Classes */
-  .TableHead {
-    background-color: rgb(188, 188, 188);
-  }
-  
-  .Even,
-  .Quartile {
-    background-color: rgb(209, 208, 208);
-  }
-  
-  .wrapper {
-    width: 400px;
-    margin: auto;
-    padding-top: 100px;
-  }
+    margin-left: auto;
+    margin-right: auto;
+}
 
-  .status-NotTaken {
-    background-color: #7c7c7c;
-  }
-  
-  .status-Passed {
-    background-color: #17b82f;
-  }
-  
-  .status-Failed {
-    background-color: #ed1010;
-  }
-  
-  /* IDs */
-  #label {
-    text-align: center;
-  }
+div th, div td {
+    font-size: 24px;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 1px 1px 10px 0;
+    background-image: linear-gradient(to bottom right, #aaa, #eee);
+    justify-content: center;
+}
