@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(to bottom right, #1c1c1c, #6092ff, #eee);
+    background-image: linear-gradient(to bottom right, #eee, #256aff, #eee);
     font-size: 20px;
 }
 h1 {
@@ -10,13 +10,6 @@ h1 {
 p {
     color: #fff;
     text-align: center;
-}
-nav {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 40px;
 }
 
 main img {
@@ -31,7 +24,16 @@ main img {
     margin-top: 100px;
 
 }
-ul {
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -42,26 +44,27 @@ ul {
     overflow: hidden;
     color: #fff;
 }
-ul li {
+
+nav ul li {
     float: left;
     color: #fff;
     position: relative;
     margin: 10 5px;
     list-style: none;
 }
-ul li a {
+nav ul li a {
     display: block;
     color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 3s ease;
+    transition: background-color 3s ease;
 }
 
 li a:hover:not(.active) {
-    background-image: linear-gradient(to bottom right, #1c1c1c, #5c5c5c);
+    background-color: #636363;
     color: #fff;
-    transition: 0.3s ease;
+    transition: background-color 0.3s ease;
 }
 
 ol {
@@ -96,7 +99,7 @@ ol li {
     right: 10px;
     border-radius: 5px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.5s ease;
 }
 
 .dropbtn:focus,
@@ -133,7 +136,7 @@ ol li {
 }
 
 .dropdown a:hover {
-    background-color: #777;
+    background-color: #111;
     transition: background-color 0.3s ease;
 }
 
@@ -146,12 +149,23 @@ ol li {
 footer {
     bottom: 0;
     position: relative;
-    margin-top: 20%;
+    margin-top: 15%;
     clear: both;
+    background-color: #1c1c1c11;
+}
+
+footer p {
+    color: #fff;
 }
 
 footer table {
     font-size: 24px;
-    width: 100%;
     text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    float: center;
+    width: 40%;
 }

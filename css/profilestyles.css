@@ -1,4 +1,4 @@
-table {
+main table {
   color: #fff;
   font-size: 24px;
   margin-left: auto;
@@ -10,11 +10,17 @@ table {
   width: 40%;
 }
 
-td {
+main td {
   padding: 5px;
   border-radius: 50px;
 }
 
+main ul li {
+  list-style-type: none;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
 
 
 /* IDs */
@@ -30,8 +36,14 @@ td {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 25%;
     height: auto;
     clip-path: circle();
     align-items: center;
   }
+
+  #link {
+    height: 100px;
+    width: auto;
+  }
+
