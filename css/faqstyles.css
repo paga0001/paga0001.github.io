@@ -5,7 +5,7 @@
     cursor: pointer;
     padding: 18px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     border: none;
     outline: none;
   }
@@ -34,4 +34,5 @@
 
 p {
     color: #000;
+    text-align: left;
 }

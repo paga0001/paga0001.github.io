@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(to bottom, #256aff, #eee);
+}
+
 a.button {
     display: flex;
     flex-direction: column;
