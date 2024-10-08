@@ -22,8 +22,8 @@ main ul li {
   font-size: 18px;
 }
 
-main p{
-  width: 80%;
+main p {
+  width: 60%;
   text-align: left;
   margin: 0 auto;
 }
@@ -32,25 +32,17 @@ main p{
 
 /* IDs */
 
-#profile p {
-    text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    text-indent: 0;
-  }
-
 #ProfilePic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-    height: auto;
-    clip-path: circle();
-    align-items: center;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  height: auto;
+  clip-path: circle();
+  align-items: center;
+}
 
-  #link {
-    height: 100px;
-    width: auto;
-  }
-
+#link {
+  height: 100px;
+  width: auto;
+}
