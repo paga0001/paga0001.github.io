@@ -1,57 +1,65 @@
 /* Tags */
 div table {
-    font-size: 24px;
-    width: 75%;
-    text-align: center;
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 1px 1px 10px 0;
-    background-image: linear-gradient(to bottom right, #737373, #eee);
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: linear-gradient(to bottom right, #eee, #6092ff, #eee);
+  font-size: 24px;
+  width: 75%;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 0;
+  background-image: linear-gradient(to bottom right, #737373, #eee);
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to bottom right, #eee, #6092ff, #eee);
 }
 
-div th, div td {
-    font-size: 24px;
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 1px 1px 10px 0;
-    background-image: linear-gradient(to bottom right, #aaa, #eee);
-    justify-content: center;
+div th,
+div td {
+  font-size: 24px;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 0;
+  background-image: linear-gradient(to bottom right, #aaa, #eee);
+  justify-content: center;
 }
 
 article table {
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    width: 75%;
-    text-align: center;
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 1px 1px 10px 0;
-    margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  width: 75%;
+  text-align: center;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 0;
+  margin-bottom: 10px;
 }
 
-article th, article td {
-    font-size: 24px;
-    border-radius: 1rem;
-    padding: 1rem;
-    box-shadow: 1px 1px 10px 0;
-    justify-content: center;
+article th,
+article td {
+  font-size: 24px;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 0;
+  justify-content: center;
+}
+
+main p {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
 }
 
 .status-NotTaken {
-    background-image: linear-gradient(to bottom right, #aaa, #eee);
-  }
-  
-  .status-Passed {
-    background-color: #22d43d;
-    background-image: linear-gradient(to bottom right, #22d43d, #7cd78a);
-  }
-  
-  .status-Failed {
-    background-color: #d70c0c;
-    background-image: linear-gradient(to bottom right, #d70c0c, #da5959);
-  }
+  background-image: linear-gradient(to bottom right, #aaa, #eee);
+}
+
+.status-Passed {
+  background-color: #22d43d;
+  background-image: linear-gradient(to bottom right, #22d43d, #7cd78a);
+}
+
+.status-Failed {
+  background-color: #d70c0c;
+  background-image: linear-gradient(to bottom right, #d70c0c, #da5959);
+}

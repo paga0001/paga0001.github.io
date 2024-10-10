@@ -1,0 +1,46 @@
+main table {
+    color: #fff;
+    font-size: 24px;
+    text-align: left;
+    width: 100%;
+}
+
+
+main ul li {
+    list-style-type: none;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+main p {
+    text-align: left;
+    margin: 0 auto;
+}
+
+ol {
+    color: #fff;
+}
+
+ol li {
+    float: center;
+    color: #fff;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.main_header {
+    font-size: 100px;
+}
+
+.hz {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff66;
+    border-radius: 5%;
+}
+
+.netherlands {
+    margin-bottom: 50px;
+    border-radius: 5%;
+}
