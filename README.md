@@ -1,1 +1,2 @@
-# paga0001.github.io
+# Hello there reader. This website was made for my school project in HZ University of Applied Sciences.
+# All the required files have been added to this zip-file. If any questions, send them to paga0001@hz.nl
