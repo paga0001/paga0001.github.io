@@ -6,11 +6,11 @@ div table {
   border-radius: 1rem;
   padding: 1rem;
   box-shadow: 1px 1px 10px 0;
-  background-image: linear-gradient(to bottom right, #737373, #eee);
+  background-image: linear-gradient(to bottom right, #737373, #111);
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(to bottom right, #eee, #6092ff, #eee);
+  background-image: linear-gradient(to bottom right, #111, #6092ff, #111);
 }
 
 div th,
